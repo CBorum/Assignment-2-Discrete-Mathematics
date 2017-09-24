@@ -49,6 +49,6 @@ studentAttendsClassWith(X, Y):-
     attends(X, Z),
     attends(Y, Z).
 
-classRoomDay(CLASS, ROOM, DAY):-
+classInRoomOnDay(CLASS, ROOM, DAY):-
     room(ROOM, CLASS),
     day(DAY, CLASS).
