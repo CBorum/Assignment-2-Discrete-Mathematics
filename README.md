@@ -11,7 +11,7 @@ Student calendar
 ## We have prepared the following queries:
 ### attends(STUDENT, CLASS)
 Determines wether a student attends a specific class
-```javascript
+```java
 ?- attends(magnus, datamatiker) -> true
 ?- attends(X, datamatiker) -> "magnus"
 ```
