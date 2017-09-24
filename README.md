@@ -15,6 +15,7 @@ Student calendar
 ?- attends(X, datamatiker) -> magnus
 ```
 Determines wether a student attends a specific class
+
 ---
 ### room(ROOM, CLASS)
 ```java
@@ -22,6 +23,7 @@ Determines wether a student attends a specific class
 ?- room(ROOM, datamatiker) -> 101
 ```
 Determines what room a certain class is held in
+
 ---
 ### day(DAY, CLASS)
 ```java
@@ -29,6 +31,7 @@ Determines what room a certain class is held in
 ?- day(DAY, datamatiker) -> monday
 ```
 Determines wether or not a class is held on specific day
+
 ---
 ### studentAttendsClassWith(A, B)
 ```java
